@@ -4,6 +4,15 @@ body {
 a {
     text-decoration: none;
     color: #403d50;
+    font-family: 'Playfair Display', serif;
+}
+a:hover {
+    background-color: #403d50;
+    color: #ddf1e8;
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    border-left: solid 1px #ddf1e8;
+    border-right: solid 1px #ddf1e8;
 }
 #navbar {
 display:flex;
@@ -19,6 +28,11 @@ margin-top:2rem;
 margin-left:2rem;
 text-align:center;
 padding-top:2rem;
+}
+.nav-link {
+    border-bottom:solid #403d50 1.1px;
+    padding:2.5rem;
+    font-size: 1.5rem;
 }
 #title {
     margin-top: 3rem;
@@ -51,14 +65,15 @@ padding-top:2rem;
 .sub_title {
     font-family: "Pacifico", cursive;
     text-align:center;
-    padding-top: 2.5rem;
-    font-size:1.2rem;
+    padding-top: 1.5rem;
+    font-size:1.5rem;
 }
 .fa-robot, .fa-laptop-code, .fa-keyboard, .fa-network-wired,.fa-download {
     display:flex;
     justify-content:center;
     align-items: center;
-    color:#ddf1e8;
+    color: #ddf1e8;
+    background-color: #403d50;
     font-size: 5rem;
 }
 .fa-robot, .fa-keyboard, .fa-download {
@@ -68,14 +83,42 @@ padding-top:2rem;
 .fa-laptop-code, .fa-network-wired {
     grid-column: 4/5;
 }
-#Section_One {
+p {
+    margin-bottom:-25px;
+}
+p, li{
+    padding: 1rem;
+
+}
+ul {
+    vertical-align: center;
+    width:70%;
+}
+
+.techdoc {
+    display:flex;justify-content:center;
+    border: 1px #ddf1e8 solid;
+    border-radius: .75rem;
+    background: #403d50;
+    color: #ddf1e8;
+    width: 50%;
+    height: 15%;
+    padding:2rem;
+    margin-left:9.8rem;
+    margin-top: 3rem;
+}
+#Getting_Started {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     margin-right:2rem;
     background:#ddf1e8;
     height:30rem;
     grid-column:2/5;
     border: solid #403d50 1px;
     border-radius: .75rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 #Section_Two {
     height:30rem;
@@ -84,6 +127,7 @@ padding-top:2rem;
     border-radius: .75rem;
     background:#ddf1e8;
     grid-column: 1/4;
+    font-family: 'Playfair Display', serif;
 }
 #Section_Three {
     margin-right:2rem;
