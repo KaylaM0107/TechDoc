@@ -1,5 +1,7 @@
-body {
-    scroll-behavior: smooth;
+html, body {
+    height: 100%;
+    padding:0;
+    margin:0;
 }
 a {
     text-decoration: none;
@@ -22,16 +24,17 @@ border: solid #403d50 1px;
 border-radius: .75rem;
 width: 15rem;
 position:fixed;
-height: 72rem;
+height: 100%;
 background:#ddf1e8;
-margin-top:2rem;
+margin-top:.5rem;
+margin-bottom:.5rem;
 margin-left:2rem;
 text-align:center;
-padding-top:2rem;
+padding-top:1rem;
 }
 .nav-link {
     border-bottom:solid #403d50 1.1px;
-    padding:2.5rem;
+    padding:2rem;
     font-size: 1.5rem;
 }
 #title {
@@ -56,11 +59,13 @@ padding-top:2rem;
 }
 
 #grid {
+    height:100%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin:0;
     overflow-x: hidden;
     background:#403d50;
+    scroll-behavior: smooth;
 }
 .sub_title {
     font-family: "Pacifico", cursive;
@@ -102,7 +107,7 @@ ul {
     background: #403d50;
     color: #ddf1e8;
     width: 50%;
-    height: 15%;
+    height: 12%;
     padding:2rem;
     margin-left:9.8rem;
     margin-top: 3rem;
@@ -119,8 +124,9 @@ ul {
     border: solid #403d50 1px;
     border-radius: .75rem;
     font-family: 'Playfair Display', serif;
+    line-height: 1.5rem;
 }
-#Section_Two {
+#What_is_Javascript {
     height:30rem;
     grid-row: 2/3;
     border: solid #403d50 1px;
@@ -128,8 +134,9 @@ ul {
     background:#ddf1e8;
     grid-column: 1/4;
     font-family: 'Playfair Display', serif;
+    line-height: 1.5rem;
 }
-#Section_Three {
+#Hello_World {
     margin-right:2rem;
     background:#ddf1e8;
     grid-column:2/5;
@@ -137,6 +144,7 @@ ul {
     grid-row: 3/4;
     border: solid #403d50 1px;
     border-radius: .75rem;
+    font-family: 'Playfair Display', serif;
 }
 #Section_Four {
     height:30rem;
