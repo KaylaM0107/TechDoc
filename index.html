@@ -14,7 +14,7 @@
         <a href="#Getting_Started" class="nav-link">Getting Started</a>
         <a href="#What_is_Javascript" class="nav-link">What is Javascript?</a>
         <a href="#Hello_World" class="nav-link">Hello World</a>
-        <a href="#Section_Four" class="nav-link">Section Four</a>
+        <a href="#Variables" class="nav-link">Variables</a>
         <a href="#Section_Five" class="nav-link">Section Five</a>
     </nav>
 <main id="main-doc">
@@ -38,10 +38,11 @@
             JavaScript can be connected to the objects of its environment to provide programmatic control 
             over them. JavaScript contains a standard library of objects, such as Array, Date, and Math, 
             and a core set of language elements such as operators, control structures, and statements. 
+            Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects.
              </p>
-        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core 
-            set of language elements such as operators, control structures, and statements. Core JavaScript
-             can be extended for a variety of purposes by supplementing it with additional objects.</p>
+        <p> JavaScript is a full-fledged programming language interpreter embedded inside your web browser. 
+            You can do anything in JavaScript that a regular language like Java allows. These include:</p>
+        
 
              <p>It allows you to implement complex things on web pages — every time a web page does more than just sit there and display static
                   information for you to look at — displaying timely content updates, interactive maps, 
@@ -61,13 +62,37 @@
                   greetMe("World");
               </code>
         <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+        <p>You won't be expected to understand this code in detail immediately — we just want to introduce 
+            you to the high level concepts for now, and give you an idea of how JavaScript 
+            (and other programming languages) work. In subsequent articles you'll revisit all these features 
+            in a lot more detail!</p>
     </section>
-    <section class="main-section" id="Section_Four">
-        <header class="sub_title">Section Four</header>
-        <p></p>
-        <code></code>
-        <li></li>
-        <p></p>
+    <section class="main-section" id="Variables">
+        <header class="sub_title">Variables</header>
+        <p>You use variables as symbolic names for values in your application. The names of variables, 
+            called identifiers, conform to certain rules. A JavaScript identifier must start with a letter,
+             underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript 
+             is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
+            You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the 
+            Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+        <p>You can declare a variable in three ways:</p>
+        <ol>
+            <li>With the keyword "var". Like this:</li>
+        
+        <code class="techdocvar">var x = 42.</code>
+        <p>This syntax can be used to declare both local and global variables.</p><br>
+
+            <li>By simply assigning it a value. Like this:</li>
+
+        <code class="techdocvar">x = 42.</code>
+        <p>This always declares a global variable. It generates a strict JavaScript 
+            warning. You shouldn't use this variant.</p>
+
+            <li>With the keyword "let". Like this:</li>
+
+            <code class="techdocvar">let y = 13.</code>
+            <p>This syntax can be used to declare a block scope local variable.</p>
+        </ol>
     </section>
     <i class="fas fa-network-wired"></i>
     <i class="fas fa-download"></i>
