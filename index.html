@@ -12,10 +12,10 @@
     <nav id="navbar">
         <header id="title">Javascript</header>
         <a href="#Getting_Started" class="nav-link">Getting Started</a>
-        <a href="#What_is_Javascript" class="nav-link">What is Javascript?</a>
+        <a href="#What_is_Javascript_?" class="nav-link">What is Javascript?</a>
         <a href="#Hello_World" class="nav-link">Hello World</a>
         <a href="#Variables" class="nav-link">Variables</a>
-        <a href="#Section_Five" class="nav-link">Section Five</a>
+        <a href="#Constants" class="nav-link">Constants</a>
     </nav>
 <main id="main-doc">
         <i class="fas fa-robot"></i>
@@ -31,7 +31,7 @@
         <li>You have a strong willingness and determination to learn new things!</li>
         </ul>
     </section>
-    <section class="main-section" id="What_is_Javascript">
+    <section class="main-section what-is-javascript" id="What_is_Javascript_?">
         <header class="sub_title">What is Javascript?</header>
         <p>JavaScript is a cross-platform, object-oriented scripting language. 
             It is a small and lightweight language. Inside a host environment (for example, a web browser), 
@@ -96,12 +96,35 @@
     </section>
     <i class="fas fa-network-wired"></i>
     <i class="fas fa-download"></i>
-    <section class="main-section" id="Section_Five">
-        <header class="sub_title">Section Five</header>
-        <p></p>
-        <code></code>
-        <li></li>
-        <p></p>
+    <section class="main-section" id="Constants">
+        <header class="sub_title">Constants</header>
+        <p>You can create a read-only, named constant with the const keyword. 
+            The syntax of a constant identifier is the same as for a variable identifier: 
+            it must start with a letter, underscore or dollar sign and can contain alphabetic, 
+            numeric, or underscore characters.</p><br>
+        <code class="techdocvar">const PI = 3.14;</code><br>
+        <p>A constant cannot change value through assignment or be re-declared while the script 
+            is running. It has to be initialized to a value. The scope rules for constants are the 
+            same as those for let block scope variables. If the const keyword is omitted, the 
+            identifier is assumed to represent a variable. You cannot declare a constant with the 
+            same name as a function or variable in the same scope. For example:</p><br>
+            <code class="techdocvar_med">// THIS WILL CAUSE AN ERROR
+                    function f() {};
+                    const f = 5;
+                    // THIS WILL CAUSE AN ERROR ALSO
+                    function f() {
+                    const g = 5;
+                    var g;
+                    //statements
+                    }</code><br>
+
+                    <p>However, object attributes are not protected, so the following 
+                        statement is executed without problems.</p><br>
+
+                    <code class="techdocvar">const MY_OBJECT = {"key": "value"};
+                            MY_OBJECT.key = "otherValue";</code>
+
+
     </section>
 </main>
 </container>
