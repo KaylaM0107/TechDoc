@@ -46,7 +46,7 @@ padding-top:1rem;
 #main-doc {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .55fr .55fr .55fr .55fr .55fr;
+    grid-template-rows: .55fr .55fr .55fr .55fr .55fr.55fr .55fr .55fr .55fr .55fr;
     grid-row-gap:1rem;
     grid-column:2/5;
     height:100%;
@@ -126,6 +126,18 @@ ul {
     margin-left:13rem;
     margin-top: 1rem;
 }
+.techdocvar_sm {
+    display:flex;
+    justify-content:center;
+    border: 1px #ddf1e8 solid;
+    border-radius: .75rem;
+    background: #403d50;
+    color: #ddf1e8;
+    width: 35%;
+    height: 8%;
+    padding:1rem;
+    margin-left:13rem;
+}
 .techdocvar_med {
     display:flex;
     justify-content:center;
@@ -154,7 +166,7 @@ ul {
     font-family: 'Playfair Display', serif;
     line-height: 1.5rem;
 }
-.what-is-javascript{
+#What_is_Javascript{
     height:30rem;
     grid-row: 2/3;
     padding:1.5rem;
