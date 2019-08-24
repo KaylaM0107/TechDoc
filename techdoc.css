@@ -46,8 +46,7 @@ padding-top:1rem;
 #main-doc {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .55fr .55fr .55fr .55fr .55fr.55fr .55fr .55fr .55fr .55fr;
-    grid-row-gap:1rem;
+    grid-template-rows: .45fr .45fr .45fr .55fr .55fr .55fr 1fr .55fr .55fr .55fr;
     grid-column:2/5;
     height:100%;
     width:100%;
@@ -129,6 +128,7 @@ ul {
 .techdocvar_sm {
     display:flex;
     justify-content:center;
+    align-items: center;
     border: 1px #ddf1e8 solid;
     border-radius: .75rem;
     background: #403d50;
@@ -151,6 +151,36 @@ ul {
     padding-top:1.2rem;
     margin-left:13rem;
     margin-top: 1rem;
+}
+.techdocvar_else {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px #ddf1e8 solid;
+    border-radius: .75rem;
+    background: #403d50;
+    color: #ddf1e8;
+    width: 40%;
+    height: 6%;
+    padding:2rem;
+    padding-top:1.2rem;
+    margin-left:11rem;
+    margin-top: 2rem;
+}
+.techdocvar_lg {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px #ddf1e8 solid;
+    border-radius: .75rem;
+    background: #403d50;
+    color: #ddf1e8;
+    width: 40%;
+    height: 12%;
+    padding:2rem;
+    padding-top:1.2rem;
+    margin-left:11rem;
+    margin-top: 2rem;
 }
 #Getting_Started {
     display:flex;
@@ -187,6 +217,7 @@ ul {
     border: solid #403d50 1px;
     border-radius: .75rem;
     font-family: 'Playfair Display', serif;
+    margin-top: 3rem;
 }
 #Variables {
     height:62rem;
@@ -197,6 +228,7 @@ ul {
     border-radius: .75rem;
     background:#ddf1e8;
     font-family: 'Playfair Display', serif;
+    margin-top: 4rem;
 }
 #Constants{
    padding:2rem;
@@ -207,7 +239,31 @@ ul {
     grid-row:5/6;
     border: solid #403d50 1px;
     border-radius: .75rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-bottom:2rem;
     font-family: 'Playfair Display', serif;
+}
+#Data_Types {
+    height:43rem;
+    grid-column: 1/4;
+    grid-row:6/7;
+    padding:1.5rem;
+    border: solid #403d50 1px;
+    border-radius: .75rem;
+    background:#ddf1e8;
+    font-family: 'Playfair Display', serif;
+    margin-top: 5rem;
+}
+#If_Else_Statements {
+    padding:2rem;
+    margin-right:1.5rem;
+     background:#ddf1e8;
+     grid-column:2/5;
+     height: 75rem;
+     grid-row:7/8;
+     border: solid #403d50 1px;
+     border-radius: .75rem;
+     margin-top: 5rem;
+     margin-bottom:2rem;
+     font-family: 'Playfair Display', serif;
 }
