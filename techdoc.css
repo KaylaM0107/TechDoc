@@ -46,7 +46,7 @@ padding-top:1rem;
 #main-doc {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .45fr .45fr .45fr .55fr .55fr .55fr 1fr .55fr .55fr .55fr;
+    grid-template-rows: .40fr .43fr .39fr .55fr .50fr .45fr 1fr .55fr .55fr .15fr;
     grid-column:2/5;
     height:100%;
     width:100%;
@@ -217,7 +217,7 @@ ul {
     border: solid #403d50 1px;
     border-radius: .75rem;
     font-family: 'Playfair Display', serif;
-    margin-top: 3rem;
+    margin-top: 2srem;
 }
 #Variables {
     height:62rem;
@@ -252,7 +252,7 @@ ul {
     border-radius: .75rem;
     background:#ddf1e8;
     font-family: 'Playfair Display', serif;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 #If_Else_Statements {
     padding:2rem;
@@ -266,4 +266,40 @@ ul {
      margin-top: 5rem;
      margin-bottom:2rem;
      font-family: 'Playfair Display', serif;
+}
+#While_Statements {
+    height:60rem;
+    grid-column: 1/4;
+    grid-row:8/9;
+    padding:1.5rem;
+    border: solid #403d50 1px;
+    border-radius: .75rem;
+    background:#ddf1e8;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2rem;
+}
+#Function_Declarations {
+    padding:2rem;
+    margin-right:1.5rem;
+     background:#ddf1e8;
+     grid-column:2/5;
+     height: 58rem;
+     grid-row:9/10;
+     border: solid #403d50 1px;
+     border-radius: .75rem;
+     margin-top: 5rem;
+     margin-bottom:2rem;
+     font-family: 'Playfair Display', serif;
+}
+#Reference {
+    height:8rem;
+    grid-row: 10/11;
+    padding:1.5rem;
+    border: solid #403d50 1px;
+    border-radius: .75rem;
+    background:#ddf1e8;
+    grid-column: 1/5;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5rem;
+    margin-right: 4rem;
 }
