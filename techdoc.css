@@ -42,7 +42,6 @@ overflow-y: scroll;
     font-size:2.8rem;
     font-family: "Pacifico",cursive;
 }
-
 #main-doc {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -312,15 +311,27 @@ ul {
     #title {
         margin-top: 1rem;
     }
-    #main-doc {
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: .40fr .43fr .39fr .55fr .50fr .45fr 1fr .55fr .55fr .15fr;
-        grid-column:1/5;
-        height:100%;
-        width:100%;
-        margin-right:3.5rem;
-        margin-top:2.5rem;
+    #grid {
+        display: inline;
     }
-}
+    #main-doc {
+        display: inline;
+    }
 
+#Getting_Started {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#ddf1e8;
+    width:100%;
+    height:45rem;
+    margin-top:30rem;
+    margin-left: .75rem;
+    margin-right:.75rem;
+    border: solid #403d50 1px;
+    border-radius: .75rem;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5rem;
+}
+}
