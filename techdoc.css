@@ -326,7 +326,7 @@ ul {
     }
     .techdocvar {
         padding:2rem;
-        margin-left:4rem;
+        margin-left:4.5rem;
         margin-top: 1rem;
     }
     #Getting_Started {
@@ -356,7 +356,7 @@ ul {
     
     }
     #Variables { 
-        height:75rem;
+        height:72rem;
         margin-left: 2rem;
         margin-right:2rem;
         grid-column: 1/5;
@@ -369,9 +369,14 @@ ul {
         margin-right: 2rem;
         margin-left:2rem;
          grid-column:1/5;
-         height: 50rem;
+         height: 65rem;
          grid-row:6/7;
          margin-top:0;
-         margin-bottom:2rem;
+    }
+    #Data_Types {
+        height:43rem;
+        grid-column: 1/5;
+        grid-row:7/8;
+        padding:1.5rem;
     }
 }
