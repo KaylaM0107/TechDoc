@@ -313,7 +313,7 @@ ul {
     }
     #main-doc {
         grid-column: 1/5;
-        grid-template-rows: .25fr .4fr .5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: .25fr .4fr .5fr .25fr .8fr 1fr 1fr 1fr 1fr 1fr;
         grid-row-gap: 3rem;
     }
     .fas {
@@ -323,6 +323,11 @@ ul {
         height: 10%;
         margin-left: 4.5rem;
         padding-bottom:3rem;
+    }
+    .techdocvar {
+        padding:2rem;
+        margin-left:4rem;
+        margin-top: 1rem;
     }
     #Getting_Started {
         padding: .5rem;
@@ -338,6 +343,7 @@ ul {
         margin-right:2rem;
         grid-row: 3/4;
         padding:1.5rem;
+        padding-bottom: 4rem;
     }
     #Hello_World {
         padding:1.5rem;
@@ -351,13 +357,21 @@ ul {
     }
     #Variables { 
         height:75rem;
+        margin-left: 2rem;
+        margin-right:2rem;
         grid-column: 1/5;
         grid-row:5/6;
         padding:1.5rem;
-        border: solid #403d50 1px;
-        border-radius: .75rem;
-        background:#ddf1e8;
-        font-family: 'Playfair Display', serif;
-        margin-top: 4rem;
+        margin-top:0;
+    }
+    #Constants {
+        padding:2rem;
+        margin-right: 2rem;
+        margin-left:2rem;
+         grid-column:1/5;
+         height: 50rem;
+         grid-row:6/7;
+         margin-top:0;
+         margin-bottom:2rem;
     }
 }
