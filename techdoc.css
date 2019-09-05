@@ -100,7 +100,6 @@ ul {
 
 .techdoc {
     display:flex;
-    justify-content:center;
     border: 1px #ddf1e8 solid;
     border-radius: .75rem;
     background: #403d50;
@@ -320,6 +319,11 @@ ul {
     .fas {
         display: none;
     }
+    .techdoc {
+        height: 10%;
+        margin-left: 4.5rem;
+        padding-bottom:3rem;
+    }
     #Getting_Started {
         padding: .5rem;
         margin-left:2rem;
@@ -337,11 +341,23 @@ ul {
     }
     #Hello_World {
         padding:1.5rem;
+        padding-bottom:3rem;
         grid-column:1/5;
-        height:40rem;
+        height:35rem;
         grid-row: 4/5;
         margin-left: 2rem;
         margin-right:2rem;
     
+    }
+    #Variables { 
+        height:75rem;
+        grid-column: 1/5;
+        grid-row:5/6;
+        padding:1.5rem;
+        border: solid #403d50 1px;
+        border-radius: .75rem;
+        background:#ddf1e8;
+        font-family: 'Playfair Display', serif;
+        margin-top: 4rem;
     }
 }
