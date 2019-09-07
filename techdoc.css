@@ -329,7 +329,7 @@ ul {
     }
     #main-doc {
         grid-column: 1/5;
-        grid-template-rows: .25fr .4fr .5fr .25fr .8fr .5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: .25fr .4fr .5fr .25fr .8fr .5fr .6fr .6fr .6fr .6fr .10fr;
         grid-row-gap: 3rem;
     }
     .fas {
@@ -345,11 +345,30 @@ ul {
         margin-left:4.5rem;
         margin-top: 1rem;
     }
-    .techdoccon, .techdocvar_med, .techdocvar_sm {
+    .techdoccon {
         margin-left: 6.5rem;
+        padding: 2rem;
+    }
+    .techdocvar_sm {
+        margin-left: 2rem;
+        width: 70%;
+        height: 2rem;
+        padding: 2rem;
     }
     .techdocvar_med {
+        margin-left: 2rem;
         padding-bottom: 5rem;
+        width: 70%;
+        height: 2rem;
+    }
+    .techdocvar_else {
+        margin-left: 5.5rem;
+    }
+    .techdocvar_lg {
+        width: 80%;
+        height: 6%;
+        margin-left:.75rem;
+        padding-top:1.8rem;
     }
     #Getting_Started {
         padding: .5rem;
@@ -391,18 +410,54 @@ ul {
         margin-right: 2rem;
         margin-left:2rem;
          grid-column:1/5;
-         height: 65rem;
+         height: 62rem;
          grid-row:6/7;
          margin-top:0;
          margin-bottom:0;
     }
     #Data_Types {
-        height:50rem;
+        height:53rem;
         margin-right: 2rem;
         margin-left:2rem;
         grid-column: 1/5;
         grid-row:7/8;
         padding:1.5rem;
         margin-top: 0;
+        margin-bottom:0;
+    }
+    #If_Else_Statements {
+        padding:2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+         grid-column:1/5;
+         height: 87rem;
+         grid-row:8/9;
+         margin-top: 0;
+         margin-bottom:0;
+    }
+    #While_Statements {
+        grid-column: 1/5;
+        grid-row: 9/10;
+        height: 75rem;
+        margin-right:2rem;
+        margin-left:2rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #Function_Declarations {
+        height: 70rem;
+        grid-row: 10/11;
+        grid-column:1/5;
+        margin-right:2rem;
+        margin-left:2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #Reference {
+        grid-row: 11/12;
+        grid-column: 1/5;
+        margin-right:2rem;
+        margin-left:2rem;
+        margin-bottom: 2rem;
     }
 }
