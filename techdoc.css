@@ -319,13 +319,13 @@ ul {
 
 @media only screen and (max-width: 600px) {
     #navbar {
-        height: 30%;
+        height: 47%;
         width: 95%;
         margin-left:.75rem;
         margin-top: .75rem;
     }
     #title {
-        margin-top: 1rem;
+        margin-top: 0;
     }
     #main-doc {
         grid-column: 1/5;
@@ -350,7 +350,7 @@ ul {
         padding: 2rem;
     }
     .techdocvar_sm {
-        margin-left: 2rem;
+        margin-left: 1.75rem;
         width: 70%;
         height: 2rem;
         padding: 2rem;
