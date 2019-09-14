@@ -319,7 +319,7 @@ ul {
 
 @media only screen and (max-width: 600px) {
     #navbar {
-        height: 47%;
+        height: 16%;
         width: 95%;
         margin-left:.75rem;
         margin-top: .75rem;
@@ -329,7 +329,7 @@ ul {
     }
     #main-doc {
         grid-column: 1/5;
-        grid-template-rows: .25fr .4fr .5fr .25fr .8fr .5fr .6fr .6fr .6fr .6fr .10fr;
+        grid-template-rows: .05fr .4fr .5fr .25fr .8fr .5fr .6fr .6fr .6fr .6fr .10fr;
         grid-row-gap: 3rem;
     }
     .fas {
@@ -460,4 +460,68 @@ ul {
         margin-left:2rem;
         margin-bottom: 2rem;
     }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #main-doc {
+        grid-template-rows: .40fr .43fr .39fr .55fr .50fr .45fr 1fr .55fr .55fr .085fr;
+    }
+ #Getting_Started, #Hello_World, #Constants, #If_Else_Statements, #Function_Declarations {
+     margin-right:1.5rem;
+     margin-left: 0;
+     padding: 1.5rem;
+ }
+ #What_is_Javascript, #Variables, #Data_Types, #While_Statements, #Reference {
+     margin-left: 3rem;
+ }
+ #navbar {
+     margin-left: 1rem;
+ }
+ .fa-robot, .fa-keyboard, .fa-download {
+     margin-left: 5rem;
+ }
+ #What_is_Javascript {
+     height: 35rem;
+ }
+ #Hello_World {
+     margin-top: 2rem;
+     padding-bottom:3rem;
+ }
+ .techdoc {
+     margin-left: 5.5rem;
+ }
+ #Variables {
+     height: 65rem;
+ }
+ .techdocvar {
+     margin-left: 8rem;
+ }
+ #Constants {
+     height: 62rem;
+ }
+ .techdoccon, .techdocvar_med, .techdocvar_sm {
+     margin-left:8.5rem;
+ }
+ .techdocvar_med {
+     height: 15%;
+ }
+ #Data_Types {
+     height: 48rem;
+ }
+ #If_Else_Statements {
+     height: 85rem;
+ }
+ .techdocvar_else {
+     margin-left: 6.5rem;
+ }
+ .techdocvar_lg {
+     height: 7%;
+     width: 70%;
+     margin-left: 2.5rem;
+ }
+ #While_Statements {
+     height: 68rem;
+ }
+ #Reference {
+     margin-bottom: 1rem;
+ }
 }
